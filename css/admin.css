@@ -1,0 +1,85 @@
+/* Estilos personalizados para la interfaz de Administrador */
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el menú lateral */
+.sidebar {
+    background-color: #28a745;
+    /* Color de fondo verde */
+    color: #fff;
+    width: 60px;
+    position: fixed;
+    height: 100%;
+    transition: width 0.5s;
+    overflow: hidden;
+    /* Ocultamos el contenido que exceda el ancho */
+}
+
+.sidebar:hover {
+    width: 200px;
+}
+
+.sidebar h2 {
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #218838;
+    /* Color de fondo verde más oscuro al pasar el ratón */
+}
+
+.sidebar a i {
+    margin-right: 10px;
+}
+
+/* Estilos para el contenido principal */
+.content {
+    margin-left: 60px;
+    padding: 20px;
+    transition: margin-left 0.5s;
+}
+
+.sidebar:hover+.content {
+    margin-left: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tabla de usuarios */
+.table {
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #155724;
+    /* Color de fondo verde más oscuro para encabezados de tabla */
+    color: #fff;
+    width: auto;
+    height: auto;
+}
+
+.table td {
+    background-color: #d4edda;
+    /* Color de fondo verde claro para celdas de tabla */
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}

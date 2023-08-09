@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ubicacion</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>
+                        Ristorante <span class="verde">Tu</span><span>ri</span><span class="rojo">lli</span>
+                    </h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="index.html">Inicio</a>
+                    <a href="platillos.html">Menú</a>
+                    <a href="login.html">Iniciar Sesion</a>
+                    <a href="register.html">Registrarse</a>
+                </nav>
+                <div class="hamburguesa"><span></span><span></span><span></span></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="map">
+        </div>
+    </div>
+
+    <!-- Agregar el script de la API de Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjd05ahoKca5GTvfYy4MSAQkGQ2lcmG_w&callback=initMap"
+        async defer></script>
+    <script src="js/mapa.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

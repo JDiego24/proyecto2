@@ -1,0 +1,30 @@
+[
+    {
+        "tipo": "Brut",
+        "descripcion": "Champán seco con un bajo contenido de azúcar residual, perfecto para maridar con una variedad de platos."
+    },
+    {
+        "tipo": "Extra Brut",
+        "descripcion": "Un champán extremadamente seco con muy poco azúcar añadido, ideal para quienes prefieren sabores más nítidos y menos dulces."
+    },
+    {
+        "tipo": "Seco (Demi-Sec)",
+        "descripcion": "Un champán ligeramente dulce que suele servirse con postres y platillos más ricos."
+    },
+    {
+        "tipo": "Dulce (Doux)",
+        "descripcion": "Un champán dulce con un mayor contenido de azúcar residual, adecuado para disfrutar solo o con postres."
+    },
+    {
+        "tipo": "Rosado (Rosé)",
+        "descripcion": "Champán rosado con notas afrutadas y un color encantador, perfecto para ocasiones especiales."
+    },
+    {
+        "tipo": "Blanc de Blancs",
+        "descripcion": "Champán elaborado exclusivamente con uvas blancas, resultando en un vino fresco y elegante."
+    },
+    {
+        "tipo": "Blanc de Noirs",
+        "descripcion": "Champán elaborado con uvas tintas, creando un vino con sabores más profundos y cuerpo."
+    }
+]

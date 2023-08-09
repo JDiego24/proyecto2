@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Ristorante Italiano</title>
+  <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+  <header class="encabezado">
+    <div class="contenedor-navegacion">
+      <div class="contenido-navegacion contenedor">
+        <div class="logo">
+          <h2>
+            Ristorante <span class="verde">Tu</span><span>ri</span><span class="rojo">lli</span>
+          </h2>
+        </div>
+        <nav class="navegacion ocultar">
+          <a href="index.html">Inicio</a>
+          <a href="platillos.html">Menú</a>
+          <a href="login.html">Inicia Sesión</a>
+          <a href="register.html">Registrarse</a>
+        </nav>
+        <div class="hamburguesa"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="menu contenedor">
+    <h2 id="seccion1" class="texto-platillos">Platillos populares</h2>
+    <div class="botones-platillos">
+      <button class="todos btn btn-verde">Todos</button>
+      <button class="ensaladas btn btn-verde">Ensaladas</button>
+      <button class="pasta btn btn-verde">Pasta</button>
+      <button class="pizza btn btn-verde">Pizza</button>
+      <button class="postres btn btn-verde">Postres</button>
+    </div>
+    <div class="platillos">
+      <div class="platillo" data-platillo="ensalada">
+        <img data-src="img/ensalada.webp" alt="ensalada" />
+        <h2>Ensalada mixta</h2>
+        <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+        <div class="precio">
+          <p>$40.0</p>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="ensalada">
+        <img data-src="img/ensalada2.webp" alt="ensalada" />
+        <h2>Ensalada especial</h2>
+        <p>Lechuga, rabano, tomate, aceitunas, aguacate.</p>
+        <div class="precio">
+          <p>$40.0</p>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="ensalada">
+        <img data-src="img/ensalada3.webp" alt="ensalada" />
+        <h2>Quinoa</h2>
+        <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+        <div class="precio">
+          <p>$40.0</p>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="pasta">
+        <img data-src="img/pasta1.webp" alt="pasta" />
+        <h2>Pesto</h2>
+        <p>Rica pasta verde especial.</p>
+        <div class="precio">
+          <p>$40.0</p>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="pasta">
+        <img data-src="img/pasta2.webp" alt="pasta" />
+        <h2>Marina</h2>
+        <p>Camarones y quesito.</p>
+        <div class="precio">
+          <p>$40.0</p>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="pasta">
+        <img data-src="img/pasta3.webp" alt="pasta" />
+        <h2>Quinoa</h2>
+        <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+        <div class="precio">
+          <p>$40.0</p>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="pizza">
+        <img data-src="img/pizza1.webp" alt="pizza" />
+        <h2>Pizza y verduras</h2>
+        <p>Es una pizza con verduras.</p>
+        <div class="precio">
+          <p>$40.0</p>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="pizza">
+        <img data-src="img/pizza2.webp" alt="pizza" />
+        <h2>Pizza normal</h2>
+        <p>Peperoni y especias.</p>
+        <div class="precio">
+          <p>$40.0</p>
+
+        </div>
+      </div>
+      <div class="platillo" data-platillo="pizza">
+        <img data-src="img/pizza3.webp" alt="pizza" />
+        <h2>Quinoa</h2>
+        <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+        <div class="precio">
+          <p>$40.0</p>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="postre">
+        <img data-src="img/postres1.webp" alt="postre" />
+        <h2>Tiramisu</h2>
+        <p>rico rico</p>
+        <div class="precio">
+          <p>$40.0</p>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="postre">
+        <img data-src="img/postres2.webp" alt="postre" />
+        <h2>Chocolate con granada</h2>
+        <p>Una explosión de sabor.</p>
+        <div class="precio">
+          <p>$40.0</p>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="postre">
+        <img data-src="img/postres3.webp" alt="postre" />
+        <h2>Quinoa</h2>
+        <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+        <div class="precio">
+          <p>$40.0</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="pie-pagina">
+    <div class="contenedor-piepagina contenedor">
+      <div class="info">
+        <h3>Dirección</h3>
+        <p>23.Roma Italia 75012</p>
+      </div>
+      <div class="info">
+        <h3>Días especiales</h3>
+        <p>Sabados y Jueves 7am - 11pm</p>
+        <p>+3123410921</p>
+      </div>
+      <div class="info">
+        <h3>Horarios</h3>
+        <p>Lunes - Domingo 7am - 11pm</p>
+        <div class="redes-sociales redes-pie">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="info">
+        <h3>Noticias</h3>
+        <p>suscribete para recibir más noticias</p>
+        <input type="email" placeholder="Tu correo" />
+        <input type="submit" class="btn btn-verde" value="Suscribirse" />
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
